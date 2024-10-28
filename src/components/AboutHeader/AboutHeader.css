@@ -1,0 +1,39 @@
+.AboutHeader{
+    
+    height: 100vh;
+    margin: 0px auto;
+    align-items: center;
+    display: flex;
+    
+   
+     
+}
+.circles{
+    position: absolute;
+    
+}
+.circle{
+     width: 70vh;
+     height: 70vh;
+     border-radius: 50%;
+     border: 2px aqua solid;
+
+}
+.c1{
+    position: relative;
+    top:-13rem;
+    z-index: 1;
+    left:1rem
+}
+.c2{
+    position: relative;
+    z-index: 5;
+    top:-42rem;
+    left:3rem
+}
+.c3{
+    position: relative;
+    z-index: 7;
+    top:-72rem;
+    left:5rem
+}

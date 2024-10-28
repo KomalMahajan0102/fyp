@@ -16,6 +16,10 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import ExploreMenu from '../components/ExploreMenu/ExploreMenu';
 import FoodDisplay from '../components/FoodDisplay/FoodDisplay';
+import PopularProduct from '../components/PopularProduct/PopularProduct';
+import Delivery from '../components/Delivery/Delivery';
+import Footer from '../components/Footer/Footer';
+import Header from '../components/Header/Header';
 
 
 
@@ -53,7 +57,7 @@ const HomePage = () => {
     return (
         <>
             <div className='homepage'>
-                <div className='header'>
+            <div className='header'>
                     <div className="container-fluid fd-nav" >
                         <Navbar collapseOnSelect expand="lg" className="">
                             <Container>
@@ -118,8 +122,9 @@ const HomePage = () => {
                         </div>
                     </div>
                 </div>
-                <ExploreMenu category={category} setCategory={setCategory}></ExploreMenu>
-                <FoodDisplay category={category}></FoodDisplay>
+                <PopularProduct></PopularProduct>
+                <Delivery></Delivery>
+                <Footer></Footer>
             </div>
             
         </>

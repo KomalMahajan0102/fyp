@@ -1310,3 +1310,37 @@ export const food_list = [
 
 
 ]
+export const popular_items = [
+  {
+    "_id": "137",
+    "name": "VEG MANCHURIAN CRISPY DRY",
+    "image": food_137,
+    "price": 170,
+    "category": "Veg Starter",
+    "description": "Manchurian crispy dry is a popular Chinese dish made with deep-fried vegetables coated in a crispy Manchurian sauce."
+  },
+  {
+    "_id": "130",
+    "name": "VEG SCHEZWAN GRAVY",
+    "image": food_130,
+    "price": 160,
+    "category": "Veg Starter",
+    "description": "Szechwan gravy is a spicy Chinese dish made with deep-fried vegetables coated in a spicy Szechwan sauce and served with a gravy."
+  },
+  {
+    "_id": "94",
+    "name": "VEG HONG-KONG NOODLES",
+    "image": food_94,
+    "price": 170,
+    "category": "Veg Noodles",
+    "description": "Hong Kong noodles are a popular Chinese dish made with stir-fried noodles, vegetables, and a savory sauce. They are often served with a side of steamed rice."
+  },
+  {
+    "_id": "95",
+    "name": "VEG CRISPY NOODLES",
+    "image": food_95,
+    "price": 170,
+    "category": "Veg Noodles",
+    "description": "Crispy noodles are a popular Chinese dish made with deep-fried noodles. They are often served with a sweet and sour sauce."
+  },
+]

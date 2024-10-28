@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import HomePage from './pages/HomePage'
 import StoreContextProvider from './context/StoreContext';
+import About from './pages/About';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
         <StoreContextProvider>
           <Routes>
             <Route path='/' element={<HomePage />} />
+            <Route path='/about' element={<About />} />
           </Routes>
         </StoreContextProvider>
       </BrowserRouter>
