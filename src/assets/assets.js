@@ -174,15 +174,15 @@ export const menu_list = [
         menu_image: egg_rice
     },
     {
-        menu_name: "Panner Rice",
+        menu_name: "Paneer Rice",
         menu_image: panner_rice
     },
     {
-        menu_name: "Panner Starter",
+        menu_name: "Paneer Starter",
         menu_image: panner_starter
     },
     {
-        menu_name: "Shwarma",
+        menu_name: "Shawarma in Plate",
         menu_image: shwarma
     },
     {

@@ -22,6 +22,8 @@ html {
       rgba(0, 0, 0, 0.1) 0%,
       rgba(0, 0, 0, 0.1) 50%,
       rgba(0, 0, 0, 0.2) 100%);
+  
+     
 }
 
 .blur {
@@ -48,6 +50,7 @@ html {
   width: 100%;
   height: 100%;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9));
+  
   z-index: 2;
   
 }
@@ -155,6 +158,9 @@ html {
   to {
     transform: rotate(-360deg);
   }
+}
+.b-name{
+  color: tomato !important;
 }
 
 .logotxt {

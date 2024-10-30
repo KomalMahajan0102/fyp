@@ -1,5 +1,8 @@
 import React from 'react'
 import './AboutHeader.css'
+import bg1 from '../../assets/bg1.png'
+import bg2 from '../../assets/bg2.png'
+import bg3 from '../../assets/bg3.png'
 function AboutHeader() {
   return (
     <div className='AboutHeader'>
@@ -9,18 +12,15 @@ function AboutHeader() {
             <p>Savor today delights, flourish tomorrow! Relisg flavors, nourish <br />
                 joy, and embrance vibrant vitality on your jorney.</p>
             <div className='AboutHeader-buttons'>
-                <div>Contact Us </div>
-                <div>Join Us</div>
+                <div className='contact'><button >Contact Us </button></div>
+                <div><button>Join Us</button></div>
             </div>
         </div>
-        <div className='AboutHeader-image'>
-            <div className='circles'>
-                <div>
-                 <div className='circle c1'></div>
-                <div className='circle c2'></div>
-                <div className='circle c3'></div>
-                </div>
-            </div>
+        <div className='AboutHeader-image'>          
+            <img src={bg1} alt="" className='circles' />
+            <img src={bg2} alt=""  className='chicken'/>
+            <img src={bg3} alt="" className='veg' />
+            
         </div>
       
     </div>

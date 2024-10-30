@@ -1,39 +1,81 @@
 .AboutHeader{
-    
     height: 100vh;
-    margin: 0px auto;
-    align-items: center;
     display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0px auto;
+    justify-content: space-between;
     
-   
-     
 }
-.circles{
-    position: absolute;
+.AboutHeader-desc{
+    display: flex;
+    flex-direction: column;
+    gap:0.6rem
+}
+.AboutHeader-desc h1{
+    font-size: 7rem;
+    /* color: rgba(0,0,0,0.5); */
+    color: rgb(251, 251, 251);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.AboutHeader-desc h2{
+    font-weight: 200;
+    font-size: 4rem;
+    /* color: rgba(0,0,0,0.8); */
+    color: rgb(137, 175, 209);
     
+}
+.AboutHeader-desc p{
+    /* color: rgba(0, 0, 0, 0.6); */
+    color: aliceblue;
+}
+.AboutHeader-buttons{
+    display: flex;
+    gap: 3rem;
+}
+
+.AboutHeader-buttons div{
+    width: 35%;
+    background-color: rgb(87, 87, 87);
+    color: aliceblue;
+    font-size: 20px;
+    transform: skewX(15deg);
+    padding: 6px 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.AboutHeader-buttons  div button{
+    transform: skewX(-15deg);
+    border: none;
+    background-color: rgb(87, 87, 87);
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+.AboutHeader-buttons .contact,.AboutHeader-buttons .contact button{
+    background-color: tomato;
 }
 .circle{
-     width: 70vh;
-     height: 70vh;
-     border-radius: 50%;
-     border: 2px aqua solid;
-
-}
-.c1{
-    position: relative;
-    top:-13rem;
     z-index: 1;
-    left:1rem
 }
-.c2{
-    position: relative;
-    z-index: 5;
-    top:-42rem;
-    left:3rem
+.AboutHeader-image{
+   position: relative;
 }
-.c3{
-    position: relative;
-    z-index: 7;
-    top:-72rem;
-    left:5rem
+.AboutHeader-image .chicken{
+    position: absolute;
+    left:-2rem;
+    top:-4rem;
+    height: 20rem;
+    width: 20rem;
+    z-index: 8;
+   
+}
+.AboutHeader-image .veg{
+    position: absolute;
+    right:0rem;
+    top:13rem;
+    height: 11rem;
+    width: 13.5rem;
+    z-index:8;
+    
 }
